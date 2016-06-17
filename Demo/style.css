@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Fidelity-Icon-Font';
+    src:    url('fonts/Fidelity-Icon-Font.eot?vo41se');
+    src:    url('fonts/Fidelity-Icon-Font.eot?vo41se#iefix') format('embedded-opentype'),
+        url('fonts/Fidelity-Icon-Font.woff2?vo41se') format('woff2'),
+        url('fonts/Fidelity-Icon-Font.ttf?vo41se') format('truetype'),
+        url('fonts/Fidelity-Icon-Font.woff?vo41se') format('woff'),
+        url('fonts/Fidelity-Icon-Font.svg?vo41se#Fidelity-Icon-Font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon_ {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Fidelity-Icon-Font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.card-cvc:before {
+    content: "\e903";
+}
+.verified:before {
+    content: "\e900";
+}
+.factsheet-full:before {
+    content: "\e925";
+}
+.post:before {
+    content: "\e905";
+}
+.search:before {
+    content: "\e906";
+}
+.select:before {
+    content: "\e923";
+}
+.account:before {
+    content: "\e909";
+}
+.check-mail:before {
+    content: "\e90a";
+}
+.help:before {
+    content: "\e90b";
+}
+.lock-account:before {
+    content: "\e90c";
+}
+.messages:before {
+    content: "\e90d";
+}
+.mobile:before {
+    content: "\e90e";
+}
+.watchlist:before {
+    content: "\e90f";
+}
+.confirm:before {
+    content: "\e912";
+}
+.info:before {
+    content: "\e914";
+}
+.star-line:before {
+    content: "\e908";
+}
+.star-fill:before {
+    content: "\e907";
+}
+.menu:before {
+    content: "\e915";
+}
+.warning:before {
+    content: "\e916";
+}
+.error:before {
+    content: "\e913";
+}
+.compare:before {
+    content: "\e917";
+}
+.contract:before {
+    content: "\e918";
+}
+.expand:before {
+    content: "\e919";
+}
+.export:before {
+    content: "\e91a";
+}
+.factsheet:before {
+    content: "\e91b";
+}
+.print:before {
+    content: "\e91c";
+}
+.refresh:before {
+    content: "\e91d";
+}
+.settings:before {
+    content: "\e91e";
+}
+.account-add:before {
+    content: "\e91f";
+}
+.buy:before {
+    content: "\e920";
+}
+.arrow-down:before {
+    content: "\e901";
+}
+.arrow-up:before {
+    content: "\e902";
+}
+.add:before {
+    content: "\e910";
+}
+.close:before {
+    content: "\e911";
+}
+.chart:before {
+    content: "\e921";
+}
+.market:before {
+    content: "\e922";
+}
+.sell:before {
+    content: "\e924";
+}
+.globe:before {
+    content: "\e926";
+}
+.report:before {
+    content: "\e927";
+}
+.computer:before {
+    content: "\e928";
+}
+.tick:before {
+    content: "\e929";
+}
+.hand:before {
+    content: "\e930";
+}
+.movie:before {
+    content: "\e931";
+}
+.down-sort:before {
+    content: "\e932";
+}
+.up-sort:before {
+    content: "\e933";
+}
+.chevron-down-s:before {
+    content: "\e934";
+}
+.chevron-up-s:before {
+    content: "\e935";
+}
+.chevron-down-m:before {
+    content: "\e936";
+}
+.chevron-up-m:before {
+    content: "\e937";
+}
+.menu-burger:before {
+    content: "\e938";
+}
+.no-entry:before {
+    content: "\e939";
+}
+.square:before {
+    content: "\e940";
+}
+.line:before {
+    content: "\e941";
+}
+.droplet-line:before {
+    content: "\e942";
+}
+.droplet-fill:before {
+    content: "\e943";
+}
+.droplet-alt-line:before {
+    content: "\e944";
+}
+.droplet-alt-fill:before {
+    content: "\e945";
+}
+.circle-right:before {
+    content: "\e946";
+}
+.circle-wave:before {
+    content: "\e947";
+}
+.circle-zig:before {
+    content: "\e948";
+}
+.saving:before {
+    content: "\e949";
+}
+.home:before {
+    content: "\e950";
+}
+.quantitative:before {
+    content: "\e951";
+}
+.hand-point:before {
+    content: "\e952";
+}
+.exit:before {
+    content: "\e953";
+}
+.calendar:before {
+    content: "\e954";
+}
+.clock:before {
+    content: "\e955";
+}
+.other-account:before {
+    content: "\e956";
+}
+

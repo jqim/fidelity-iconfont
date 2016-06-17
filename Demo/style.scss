@@ -1,0 +1,370 @@
+@import "variables";
+
+@font-face {
+    font-family: 'Fidelity-Icon-Font';
+    src:    url('#{$icomoon-font-path}/Fidelity-Icon-Font.eot?vo41se');
+    src:    url('#{$icomoon-font-path}/Fidelity-Icon-Font.eot?vo41se#iefix') format('embedded-opentype'),
+        url('#{$icomoon-font-path}/Fidelity-Icon-Font.woff2?vo41se') format('woff2'),
+        url('#{$icomoon-font-path}/Fidelity-Icon-Font.ttf?vo41se') format('truetype'),
+        url('#{$icomoon-font-path}/Fidelity-Icon-Font.woff?vo41se') format('woff'),
+        url('#{$icomoon-font-path}/Fidelity-Icon-Font.svg?vo41se#Fidelity-Icon-Font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon_ {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Fidelity-Icon-Font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.card-cvc {
+    &:before {
+        content: $card-cvc;
+    }
+}
+.verified {
+    &:before {
+        content: $verified;
+    }
+}
+.factsheet-full {
+    &:before {
+        content: $factsheet-full;
+    }
+}
+.post {
+    &:before {
+        content: $post;
+    }
+}
+.search {
+    &:before {
+        content: $search;
+    }
+}
+.select {
+    &:before {
+        content: $select;
+    }
+}
+.account {
+    &:before {
+        content: $account;
+    }
+}
+.check-mail {
+    &:before {
+        content: $check-mail;
+    }
+}
+.help {
+    &:before {
+        content: $help;
+    }
+}
+.lock-account {
+    &:before {
+        content: $lock-account;
+    }
+}
+.messages {
+    &:before {
+        content: $messages;
+    }
+}
+.mobile {
+    &:before {
+        content: $mobile;
+    }
+}
+.watchlist {
+    &:before {
+        content: $watchlist;
+    }
+}
+.confirm {
+    &:before {
+        content: $confirm;
+    }
+}
+.info {
+    &:before {
+        content: $info;
+    }
+}
+.star-line {
+    &:before {
+        content: $star-line;
+    }
+}
+.star-fill {
+    &:before {
+        content: $star-fill;
+    }
+}
+.menu {
+    &:before {
+        content: $menu;
+    }
+}
+.warning {
+    &:before {
+        content: $warning;
+    }
+}
+.error {
+    &:before {
+        content: $error;
+    }
+}
+.compare {
+    &:before {
+        content: $compare;
+    }
+}
+.contract {
+    &:before {
+        content: $contract;
+    }
+}
+.expand {
+    &:before {
+        content: $expand;
+    }
+}
+.export {
+    &:before {
+        content: $export;
+    }
+}
+.factsheet {
+    &:before {
+        content: $factsheet;
+    }
+}
+.print {
+    &:before {
+        content: $print;
+    }
+}
+.refresh {
+    &:before {
+        content: $refresh;
+    }
+}
+.settings {
+    &:before {
+        content: $settings;
+    }
+}
+.account-add {
+    &:before {
+        content: $account-add;
+    }
+}
+.buy {
+    &:before {
+        content: $buy;
+    }
+}
+.arrow-down {
+    &:before {
+        content: $arrow-down;
+    }
+}
+.arrow-up {
+    &:before {
+        content: $arrow-up;
+    }
+}
+.add {
+    &:before {
+        content: $add;
+    }
+}
+.close {
+    &:before {
+        content: $close;
+    }
+}
+.chart {
+    &:before {
+        content: $chart;
+    }
+}
+.market {
+    &:before {
+        content: $market;
+    }
+}
+.sell {
+    &:before {
+        content: $sell;
+    }
+}
+.globe {
+    &:before {
+        content: $globe;
+    }
+}
+.report {
+    &:before {
+        content: $report;
+    }
+}
+.computer {
+    &:before {
+        content: $computer;
+    }
+}
+.tick {
+    &:before {
+        content: $tick;
+    }
+}
+.hand {
+    &:before {
+        content: $hand;
+    }
+}
+.movie {
+    &:before {
+        content: $movie;
+    }
+}
+.down-sort {
+    &:before {
+        content: $down-sort;
+    }
+}
+.up-sort {
+    &:before {
+        content: $up-sort;
+    }
+}
+.chevron-down-s {
+    &:before {
+        content: $chevron-down-s;
+    }
+}
+.chevron-up-s {
+    &:before {
+        content: $chevron-up-s;
+    }
+}
+.chevron-down-m {
+    &:before {
+        content: $chevron-down-m;
+    }
+}
+.chevron-up-m {
+    &:before {
+        content: $chevron-up-m;
+    }
+}
+.menu-burger {
+    &:before {
+        content: $menu-burger;
+    }
+}
+.no-entry {
+    &:before {
+        content: $no-entry;
+    }
+}
+.square {
+    &:before {
+        content: $square;
+    }
+}
+.line {
+    &:before {
+        content: $line;
+    }
+}
+.droplet-line {
+    &:before {
+        content: $droplet-line;
+    }
+}
+.droplet-fill {
+    &:before {
+        content: $droplet-fill;
+    }
+}
+.droplet-alt-line {
+    &:before {
+        content: $droplet-alt-line;
+    }
+}
+.droplet-alt-fill {
+    &:before {
+        content: $droplet-alt-fill;
+    }
+}
+.circle-right {
+    &:before {
+        content: $circle-right;
+    }
+}
+.circle-wave {
+    &:before {
+        content: $circle-wave;
+    }
+}
+.circle-zig {
+    &:before {
+        content: $circle-zig;
+    }
+}
+.saving {
+    &:before {
+        content: $saving;
+    }
+}
+.home {
+    &:before {
+        content: $home;
+    }
+}
+.quantitative {
+    &:before {
+        content: $quantitative;
+    }
+}
+.hand-point {
+    &:before {
+        content: $hand-point;
+    }
+}
+.exit {
+    &:before {
+        content: $exit;
+    }
+}
+.calendar {
+    &:before {
+        content: $calendar;
+    }
+}
+.clock {
+    &:before {
+        content: $clock;
+    }
+}
+.other-account {
+    &:before {
+        content: $other-account;
+    }
+}
+
